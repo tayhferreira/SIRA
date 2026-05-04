@@ -1,5 +1,29 @@
+## [Arquivos de Compilação e Binários]
+# Pastas onde o C# gera os executáveis e arquivos temporários
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+
+## [Visual Studio / Rider / .NET]
+# Arquivos de configuração da IDE e cache do usuário
+.vs/
+.idea/
+*.user
+*.userosscache
+*.sln.docstates
+
+## [Resultados de Build]
+# Ignora pastas de depuração e lançamento
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+## [Específicos do JetBrains Rider]
+# Configurações do projeto e indexação da IDE
+.idea/
+*.sln.iml
+
+## [Arquivos do Sistema Operacional]
+# Arquivos temporários do Windows ou macOS
+.DS_Store
+Thumbs.db
